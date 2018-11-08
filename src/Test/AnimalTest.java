@@ -49,6 +49,12 @@ public class AnimalTest {
 		Homme homme = new Homme();
 		Animal chat = new Animal("Patrick", 18, "noir", 11);
 		homme.adopterAnimal(chat);
+		try{
+		homme.adopterAnimal(chat);
+		fail("expected IllegalArgumentException");
+		} catch(IllegalArgumentException e){
+			
+		}
 		assertTrue("test adopter", homme.getMesAnimaux().contains(chat));
 		assertEquals("test proprietaire",chat.getProprietaire(),homme);
 		

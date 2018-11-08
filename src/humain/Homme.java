@@ -21,8 +21,13 @@ public class Homme {
 	}
 	
 	public void adopterAnimal(Animal animal){
+		if(this.getMesAnimaux().contains(animal)){
+			throw new IllegalArgumentException();
+		}
+		else{
 		this.mesAnimaux.add(animal);
 		animal.setProprietaire(this);
+		}
 	}
 
 	public String getNom() {
