@@ -7,8 +7,8 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import cucumber.api.junit.Cucumber;
-import faune.Animal;
-import humain.Homme;
+import vivant.faune.Animal;
+import vivant.humain.Homme;
 
 @RunWith(Cucumber.class)
 public class US07 {

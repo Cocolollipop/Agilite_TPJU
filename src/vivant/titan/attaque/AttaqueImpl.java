@@ -1,4 +1,4 @@
-package titan.attaque;
+package vivant.titan.attaque;
 
 import mur.Mur;
 /**

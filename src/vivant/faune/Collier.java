@@ -1,4 +1,4 @@
-package faune;
+package vivant.faune;
 
 public class Collier {
 	

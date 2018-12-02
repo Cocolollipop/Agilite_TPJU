@@ -1,13 +1,14 @@
-package titan;
+package vivant.titan;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import mur.Mur;
-import titan.attaque.AttaqueImpl;
-import titan.attaque.AttaqueTailleEgale;
-import titan.attaque.AttaqueTailleInf;
-import titan.attaque.AttaqueTailleSup;
+import vivant.Humain;
+import vivant.titan.attaque.AttaqueImpl;
+import vivant.titan.attaque.AttaqueTailleEgale;
+import vivant.titan.attaque.AttaqueTailleInf;
+import vivant.titan.attaque.AttaqueTailleSup;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -20,7 +21,7 @@ import titan.attaque.AttaqueTailleSup;
  * @author (votre nom)
  * @version (un numéro de version ou une date)
  */
-public class Titan {
+public class Titan extends Humain {
 
     // variables d'instance - remplacez l'exemple qui suit par le vôtre
     private int taille = 5; // en metre
@@ -35,6 +36,7 @@ public class Titan {
      * Constructeur d'objets de classe Titan
      */
     public Titan() {
+    	super();
     }
 
     public void setTaille(int taille) {
@@ -128,5 +130,9 @@ public class Titan {
 	 */
 	public String attaquerMur(Mur mur){
 		return strategieAttaque.detruireMur(mur);
+	}
+	@Override
+	public String courir(){
+	return "Je zig-zag comme un Titan";
 	}
 }

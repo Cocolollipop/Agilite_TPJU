@@ -1,8 +1,9 @@
-package faune;
+package vivant.faune;
 
-import humain.Homme;
+import vivant.EtreVivant;
+import vivant.humain.Homme;
 
-public class Animal {
+public class Animal extends EtreVivant {
 	private int age;
 	private String nom;
 	private Collier collier;
@@ -12,6 +13,7 @@ public class Animal {
 	 * Constructeur par defaut d'objets de classe Animal
 	 */
 	public Animal(){
+		super();
 		this.age = 0;
 		this.nom = "SansNom";
 		
@@ -21,6 +23,7 @@ public class Animal {
 	 * Constructeur d'objets de classe Animal à collier
 	 */
 	public Animal(String name, int age, String couleur, int longueur){
+		super();
 		this.age = age;
 		this.nom = name;
 		this.collier = new Collier(couleur, longueur);

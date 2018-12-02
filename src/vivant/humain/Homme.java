@@ -1,16 +1,18 @@
-package humain;
+package vivant.humain;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import faune.Animal;
+import vivant.Humain;
+import vivant.faune.Animal;
 
-public class Homme {
+public class Homme extends Humain {
 	
 	private String nom;
 	private List<Animal> mesAnimaux;
 	
 	public Homme(){
+		super();
 		this.nom = "Jonh";
 		this.mesAnimaux = new ArrayList<Animal>();
 		
@@ -45,5 +47,7 @@ public class Homme {
 	public void setMesAnimaux(List<Animal> mesAnimaux) {
 		this.mesAnimaux = mesAnimaux;
 	}
+	
+	
 
 }
