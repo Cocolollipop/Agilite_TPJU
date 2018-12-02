@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import mur.Mur;
+import titan.attaque.Attaque;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -25,6 +26,7 @@ public class Titan {
     private Mur central = new Mur();
     private Mur intermediaire = new Mur();
     private List<Mur> listeMurs = new ArrayList<>();
+    private Attaque skillAttaque;
 
     /**
      * Constructeur d'objets de classe Titan
@@ -34,6 +36,7 @@ public class Titan {
 
     public void setTaille(int taille) {
         this.taille = taille;
+        setSkillAttaque(new Attaque(this));
     }
 
     public void setNom(String nom) {
@@ -99,4 +102,12 @@ public class Titan {
         // Insérez votre code ici
         return y;
     }
+
+	public Attaque getSkillAttaque() {
+		return skillAttaque;
+	}
+
+	public void setSkillAttaque(Attaque skillAttaque) {
+		this.skillAttaque = skillAttaque;
+	}
 }

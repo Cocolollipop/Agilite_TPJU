@@ -19,6 +19,7 @@ public class Mur {
     private Titan titan;
     private String nom = "Mur";
     private int ordre;
+    private int taille;
 
     /**
      * Constructeur d'objets de classe Mur
@@ -69,4 +70,18 @@ public class Mur {
         // Insérez votre code ici
         return y;
     }
+
+	public int getTaille() {
+		return taille;
+	}
+
+	public void setTaille(int taille) {
+		this.taille = taille;
+	}
+
+	public Titan getTitan() {
+		return titan;
+	}
+
+
 }
