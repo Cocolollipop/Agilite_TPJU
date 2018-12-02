@@ -11,7 +11,10 @@ public class AttaquePetit extends AttaqueImpl{
 	
 	@Override
 	public String attaqueMur(Mur mur) {
-		return "Pas efficace";
+		int degat = mur.getTaille()/2;
+		mur.setTaille(degat);
+		
+		return "Attaque : Plutôt efficace";
 	}
 	
 }

@@ -26,7 +26,7 @@ public class Attaque {
 	public void evaluerMur (Mur mur) {
 		
 		if(titan.getTaille() < mur.getTaille()){
-			implementation = new AttaqueInefficace();
+			implementation = new AttaqueImpl();
 		}
 		else if(titan.getTaille() == mur.getTaille()){
 			implementation = new AttaquePetit();
