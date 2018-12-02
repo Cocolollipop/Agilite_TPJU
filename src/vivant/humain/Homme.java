@@ -19,6 +19,7 @@ public class Homme extends Humain {
 	}
 	
 	public Homme(String nom){
+		super();
 		this.nom = nom;
 	}
 	
