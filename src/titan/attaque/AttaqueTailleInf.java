@@ -7,10 +7,10 @@ import mur.Mur;
  * @author Cocolollipop
  *
  */
-public class AttaquePetit extends AttaqueImpl{
+public class AttaqueTailleInf implements AttaqueImpl{
 	
 	@Override
-	public String attaqueMur(Mur mur) {
+	public String detruireMur(Mur mur) {
 		return "Pas très efficace";
 	}
 	

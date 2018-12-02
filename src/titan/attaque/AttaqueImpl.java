@@ -2,19 +2,13 @@ package titan.attaque;
 
 import mur.Mur;
 /**
- * Utilisee lorsque le titan est aussi grand que le mur
+ * Pattern Strategy
+ * Interface des types d attaques
  * @author Cocolollipop
  */
-public class AttaqueImpl {
+ public interface AttaqueImpl {
 
-	public String attaqueMur(Mur mur) {
-		int degat = mur.getTaille()/2;
-		mur.setTaille(degat);
-		
-		return "Attaque : Plutôt efficace";
-
-	}
-
+	public String detruireMur(Mur mur);
 	
 
 }
