@@ -19,7 +19,7 @@ public class Attaque {
 		
 	}
 
-	public String definirAttaque (Mur mur) {
+	public String performAttaque (Mur mur) {
 	return implementation.attaqueMur(mur);
 	}
 	

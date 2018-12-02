@@ -110,4 +110,10 @@ public class Titan {
 	public void setSkillAttaque(Attaque skillAttaque) {
 		this.skillAttaque = skillAttaque;
 	}
+	
+	public String attaquerMur(Mur mur){
+		skillAttaque.evaluerMur(mur);
+		return skillAttaque.performAttaque(mur);
+		
+	}
 }
