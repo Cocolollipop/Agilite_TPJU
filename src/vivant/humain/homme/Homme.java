@@ -49,6 +49,11 @@ public class Homme extends Humain {
 		this.mesAnimaux = mesAnimaux;
 	}
 	
+	@Override
+	public String courir(){
+		return "Je cours comme un Homme";
+	}
+	
 	
 
 }

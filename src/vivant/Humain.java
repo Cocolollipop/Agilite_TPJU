@@ -54,7 +54,7 @@ public class Humain extends EtreVivant {
 	}
 	
 	public String courir(){
-		return "Je cours comme un humain";
+		return "Je cours";
 	}
 
 }
