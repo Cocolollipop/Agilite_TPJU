@@ -3,7 +3,7 @@ package titan.attaque;
 import mur.Mur;
 /**
  * Pattern Strategy
- * Classe utilisée lorsque l'attaque est importante
+ * Classe utilisée lorsque le titan est plus grand que le mur
  * @author Cocolollipop
  *
  */
