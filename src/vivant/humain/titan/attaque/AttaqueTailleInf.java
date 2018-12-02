@@ -11,7 +11,7 @@ public class AttaqueTailleInf implements AttaqueImpl{
 	
 	@Override
 	public String detruireMur(Mur mur) {
-		return "Pas très efficace";
+		return "Le mur a senti des chatouilles..";
 	}
 	
 }
