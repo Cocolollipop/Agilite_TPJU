@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import vivant.faune.Animal;
-import vivant.humain.Homme;
+import vivant.humain.homme.Homme;
 
 public class AnimalTest {
 

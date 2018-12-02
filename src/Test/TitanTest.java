@@ -4,7 +4,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 import mur.Mur;
-import vivant.titan.Titan;
+import vivant.humain.titan.Titan;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

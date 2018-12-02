@@ -5,7 +5,7 @@
  */
 package mur;
 
-import vivant.titan.Titan;
+import vivant.humain.titan.Titan;
 
 /**
  * Décrivez votre classe Mur ici.

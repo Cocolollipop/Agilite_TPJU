@@ -1,14 +1,14 @@
-package vivant.titan;
+package vivant.humain.titan;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import mur.Mur;
 import vivant.Humain;
-import vivant.titan.attaque.AttaqueImpl;
-import vivant.titan.attaque.AttaqueTailleEgale;
-import vivant.titan.attaque.AttaqueTailleInf;
-import vivant.titan.attaque.AttaqueTailleSup;
+import vivant.humain.titan.attaque.AttaqueImpl;
+import vivant.humain.titan.attaque.AttaqueTailleEgale;
+import vivant.humain.titan.attaque.AttaqueTailleInf;
+import vivant.humain.titan.attaque.AttaqueTailleSup;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

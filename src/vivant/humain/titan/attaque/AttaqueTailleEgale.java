@@ -1,4 +1,4 @@
-package vivant.titan.attaque;
+package vivant.humain.titan.attaque;
 
 import mur.Mur;
 /**

@@ -1,7 +1,7 @@
 package vivant.faune;
 
 import vivant.EtreVivant;
-import vivant.humain.Homme;
+import vivant.humain.homme.Homme;
 
 public class Animal extends EtreVivant {
 	private int age;

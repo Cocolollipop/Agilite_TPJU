@@ -1,4 +1,4 @@
-package vivant.humain;
+package vivant.humain.homme;
 
 import java.util.ArrayList;
 import java.util.List;
